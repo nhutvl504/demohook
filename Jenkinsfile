@@ -7,6 +7,7 @@ pipeline {
             steps {
                 echo 'Starting React.js app...'
                 sh 'node --version'
+                echo 'Long hhi'
             }
         }
         stage('Build Java Project') {
